@@ -27,7 +27,7 @@ internal interface DataModule {
 
     @Singleton
     @Binds
-    abstract fun bindMatchRepository (
+    fun bindMatchRepository (
         matchRepositoryImpl: MatchRepositoryImpl
     ): MatchRepository
 
